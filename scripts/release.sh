@@ -62,6 +62,8 @@ elif [[ $DEVICE == fogos || $DEVICE == bangkk || $DEVICE == fogo ]]; then
 elif [[ $DEVICE == otter ]]; then
   OTTER="true"
   QCOM_FIRMWARE="true"
+elif [[ $DEVICE == lunaa ]]; then
+  : # Do nothing, for now.
 else
   error "Unsupported device $DEVICE"
 fi
@@ -116,6 +118,7 @@ if [[
   $DEVICE == tokay || $DEVICE == caiman || $DEVICE == komodo || $DEVICE == comet ||
   $DEVICE == FP4 ||
   $DEVICE == FP5 ||
+  $DEVICE == lunaa ||
   $DEVICE == devon || $DEVICE == hawao || $DEVICE == rhode ||
   $DEVICE == fogos || $DEVICE == bangkk || $DEVICE == fogo
 ]]; then
