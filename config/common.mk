@@ -115,24 +115,20 @@ PRODUCT_PACKAGES += \
 # Apps
 PRODUCT_PACKAGES += \
     Aperture \
-    AudioFX \
     AuroraStorePrivilegedExtension \
     AvatarPicker \
     BatteryStatsViewer \
     Bellis \
     Camelot \
     Datura \
-    ESpeakNG \
     Etar \
     ExactCalculator \
     F-DroidPrivilegedExtension \
     Glimpse \
     Panic \
-    Talkback \
     TrichromeChrome \
     TrichromeWebView \
     Twelve \
-    Recorder \
     Seedvault \
     Ripple
 
